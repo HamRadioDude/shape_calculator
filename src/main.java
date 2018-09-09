@@ -1,5 +1,3 @@
-import org.w3c.dom.ranges.RangeException;
-
 import java.util.*;
 
 public class main {
@@ -55,25 +53,25 @@ public class main {
                 break;
         }
     }
-    public static void circle(Double num1) {
+    private static void circle(Double num1) {
         double total = (num1 * num1) * 3.14159265;
         System.out.print("The area of a cirlce is: " + total);
 
 
     }
-    public static void square(Double num1) {
+    private static void square(Double num1) {
 //        System.out.println("TEST square");
         double total = (num1 * num1);
         System.out.print("The area of a square is: " + total);
     }
 
-    public static void rectangle(Double num1, Double num2){
+    private static void rectangle(Double num1, Double num2){
         double total = (num1 * num2);
         System.out.print("Area of the rectangle is: " + total);
 
     }
 
-    public static void parl(Double num1, Double num2){
+    private static void parl(Double num1, Double num2){
         double total = (num1 * num2);
         System.out.print("Area of the parallelogram is: " + total);
 
